@@ -32,7 +32,7 @@ function sendPostRequest(postData, options) {
 }
 
 async function batchRequests(totalRequests, batchSize, delayBetweenBatches) {
-    const apiUrl = 'ServerURL';
+    const apiUrl = 'Server_baseUrl';
     const postData = JSON.stringify({
         title: "hello this is 1",
         content: "this is dev"

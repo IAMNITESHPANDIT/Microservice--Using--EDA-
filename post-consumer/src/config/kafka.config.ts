@@ -6,7 +6,7 @@ class KafkaConfig {
   private broker: string;
 
   constructor() {
-    this.broker = process.env.KAFKA_BROKERS || "ServerURL";
+    this.broker = process.env.KAFKA_BROKERS || "Server_baseUrl";
 
     this.kafka = new Kafka({
       clientId: "post-producer",
